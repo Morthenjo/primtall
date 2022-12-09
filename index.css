@@ -17,8 +17,9 @@ i {
 .container {
   border-radius: 0.5rem;
   background: rgb(43, 41, 61);
+  padding: 2rem 0;
   margin: 5rem auto;
-  max-width: 50rem;
+  width: 60%;
 }
 
 .input {
