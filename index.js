@@ -5,7 +5,7 @@ const higherNumber = document.getElementById("higherNumber");
 const button = document.getElementById("button");
 const clear = document.getElementById("clear");
 const primtallEl = document.getElementById("primtall");
-const primeArr = ["Your Prime Numbers will be here"];
+primtallEl.textContent = "Your Prime Numbers will be listed here";
 function readInputLow() {
   return lowerNumber.value;
 }
@@ -36,5 +36,5 @@ button.addEventListener("click", () => {
 });
 
 clear.addEventListener("click", () => {
-  primtallEl.textContent = "";
+  primtallEl.textContent = "Your Prime Numbers will be listed here";
 });
