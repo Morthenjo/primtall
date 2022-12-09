@@ -31,8 +31,6 @@ button.addEventListener("click", () => {
       const li = document.createElement("li");
       li.textContent = `${i}`;
       primtallEl.append(li);
-      console.log([i]);
-      console.log(primtallEl);
     }
   }
 });
